@@ -1,3 +1,4 @@
-import getListStudents from "./0-get_list_students.js";
+import getResponseFromAPI from "./0-promise.js";
 
-console.log(getListStudents());
+const response = getResponseFromAPI();
+console.log(response instanceof Promise);
