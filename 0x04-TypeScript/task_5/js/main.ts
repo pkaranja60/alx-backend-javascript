@@ -8,7 +8,6 @@ interface MinorCredits {
   brand: "MinorCredits";
 }
 
-// Functions
 function sumMajorCredits(
   subject1: MajorCredits,
   subject2: MajorCredits

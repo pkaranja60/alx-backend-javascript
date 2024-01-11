@@ -1,15 +1,12 @@
 // main.ts
-import { Subjects } from "./Teacher";
-import { Cpp } from "./Cpp";
-import { Java } from "./Java";
-import { React } from "./React";
+import { Subjects } from "./subjects";
 
-export const cpp: Subjects.Cpp = new Cpp();
+// Create constants for Cpp, Java, and React Subjects
+export const cpp = new Subjects.Cpp();
+export const java = new Subjects.Java();
+export const react = new Subjects.React();
 
-export const java: Subjects.Java = new Java();
-
-export const react: Subjects.React = new React();
-
+// Create a Teacher object with experienceTeachingC = 10
 export const cTeacher: Subjects.Teacher = {
   firstName: "John",
   lastName: "Doe",
